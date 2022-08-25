@@ -4,56 +4,112 @@ layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
-<h1>ABDD</h1>
-<p>131313</p>
-<div class="container">
-  <h1 class="index__h1">這是一段話</h1>
-  <div class="alert alert-primary" role="alert">
-    A simple primary alert—check it out!
-  </div>
-  <div class="alert alert-secondary" role="alert">
-    A simple secondary alert—check it out!
-  </div>
-  <div class="alert alert-success" role="alert">
-    A simple success alert—check it out!
-  </div>
-  <div class="alert alert-danger" role="alert">
-    A simple danger alert—check it out!
-  </div>
-  <div class="alert alert-warning" role="alert">
-    A simple warning alert—check it out!
-  </div>
-  <div class="alert alert-info" role="alert">
-    A simple info alert—check it out!
-  </div>
-  <div class="alert alert-light" role="alert">
-    A simple light alert—check it out!
-  </div>
-  <div class="alert alert-dark" role="alert">
-    A simple dark alert—check it out!
-  </div>
-</div>
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+<div class="banner">
+  <div class="container position-relative bannerContainer">
+    <div class="row">
+        <div class="bannerText px-4 py-5 bg-secondary position-absolute end-0 end-lg-100 col-11  col-lg-8">
+          <h2 class="fs-lg-48p">訂製您專屬飾品</h2>
+          <h2 class="fs-lg-48p mb-0">Making your own accessories</h2>
       </div>
     </div>
   </div>
 </div>
+<main class="bg-image pb-6 pb-lg-120p">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h3 class="mb-3 mb-lg-4 fs-5 fs-md-2">我們提供給您</h3>
+        <p class="fs-14p fs-md-18p mb-0">
+          商品將使用金、銀、銅製作配件外，更會專有透明樹脂製作與線材玩出不一樣風格，透徹透徹如玻璃，輕如羽毛，並從材質到尺寸，客製零配件樣式，都可以為您製作。
+          <br>
+          <br>
+          賦予飾品更深一層意義，飾品不只是飾品，將飾品與回憶結合，將珍貴回憶隨時珍藏回味。</p>
+      </div>
+    </div>
+  </div>
+</main>
+<div class="someone_say py-80p position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p class="fs-14p fs-md-18p fw-medium mb-0">
+          「所謂的觀看，是伴隨經驗的行為，是伴隨記憶、歷史 性的影像，交織出的自我內心投影」
+          <br>
+          ———筱山紀信 中平卓馬
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h3 class="aboutHead position-absolute bottom-0 mb-0 fs-48p fs-lg-80p">About</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="special bg-image pt-6">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h4 class="fs-5 fs-md-2 mb-lg-6">理念 & 特色</h4>
+        <p class="mb-4 mb-lg-120p fs-md-18p">作者將風景與記憶，透過攝影與金工技術，把過去以不復存在的過去，保留於一附有能喚起記憶的微型空間，利用照片與飾品做結合，您可以提供珍貴的回憶照片、圖片或底片膠捲，選擇您想結合的飾品，讓我們幫您客製做成獨一的作品。</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- card -->
+<div class="cardArea bg-image">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div class="col">
+        <div class="card bg-image">
+          <img src="assets/images/necklace.png" class="card-img-top mb-2" alt="goods">
+          <button type="button" class="btn btn-primary py-12p">商品列表</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-image">
+          <img src="assets/images/ring.png" class="card-img-top mb-2" alt="customer">
+          <button type="button" class="btn btn-primary py-12p">客製商品</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-image">
+          <img src="assets/images/ring_plate.png" class="card-img-top mb-2" alt="cal">
+          <button type="button" class="btn btn-primary py-12p">量測指南</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="findUs bg-image pt-4 pt-md-120p">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card flex-md-row bg-image border-0">
+          <div class="col-md-6">
+            <picture><source media="(min-width: 992px)"
+              srcset="assets/images/pic.png">
+              <img src="assets/images/pic_mobile.png" class="card-img-top" alt="find us">
+            </picture>
+          </div>
+          <div class="col-md-5 offset-md-1">
+            <div class="card-body p-0">
+              <h5 class="card-title fs-48p fs-lg-80p mt-4 mb-3">Find Us</h5>
+              <p class="card-text fs-14p fs-md-18p mb-lg-5">除了這裡，讓我們再看看其他線上或實體哪裡還可以找到我們的作品: )</p>
+              <a href="#" class="btn btn-primary d-block py-12p">如何找到我們</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- card end -->
+
+
+

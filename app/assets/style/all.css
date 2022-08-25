@@ -13818,9 +13818,57 @@ ul, li, p, a {
 .media i {
   font-size: 44px;
 }
+@media (min-width: 992px) {
+  .media {
+    margin-left: 90px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-link {
+    border-right: 1px solid;
+  }
+}
+
+.navbar-expand-lg {
+  flex-wrap: wrap;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    border: 0px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-item {
+    border: 0px !important;
+  }
+}
+
+.navshow {
+  display: none;
+}
+@media (min-width: 992px) {
+  .navshow {
+    display: block;
+  }
+}
 
 .menu-check {
   display: none;
+}
+
+@media (min-width: 992px) {
+  .menu-open-button, .ham, .navhide {
+    display: none;
+  }
 }
 
 .ham {

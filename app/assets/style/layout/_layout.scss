@@ -6,6 +6,25 @@
     i{
         font-size: 44px;
     }
+    @include laptop{
+        margin-left: 90px !important;
+    }
+}
+.navheader{
+    border-bottom: 2px solid $primary;
+}
+.navbar{
+    @include laptop{
+        flex-direction: column;
+    }
+}
+.nav-link{
+    @include laptop{
+                border-right: 1px solid;
+    }
+}
+.navbar-expand-lg{
+    flex-wrap: wrap;
 }
 
 // .navbar-toggler{
@@ -44,8 +63,30 @@
 //         opacity: 0;
 //     }  
 // }
+
+.navbar-nav{
+    @include laptop{
+        border:0px !important;
+    }
+}
+.nav-item{
+    @include laptop{
+        border:0px !important;
+    }
+}
+.navshow{
+    display: none;
+    @include laptop{
+        display: block;
+    }
+}
 .menu-check{
     display: none;
+}
+.menu-open-button, .ham, .navhide{
+    @include laptop{
+        display: none;
+    }
 }
 .ham{
     width: 30px;
@@ -58,21 +99,21 @@
         height: 2px;
         width: 20px;
         background: $primary;
-        transform-origin: -10% ;
+        transform-origin: -14% ;
         z-index:6 ;
         transition: 0.25s ease-in-out; 
         &:nth-child(1){
-            top: 20px;
+            top: 28%;
             right: 12px;
             z-index:6 ;
         }
         &:nth-child(2){
-            top: 28.53px;
+            top: 39.4%;
             right: 12px;
             z-index:6 ;
         }
         &:nth-child(3){
-            top: 38px;
+            top: 53.5%;
             right: 12px;
             z-index:6 ;
         }

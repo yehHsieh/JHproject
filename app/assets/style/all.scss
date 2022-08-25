@@ -2,8 +2,12 @@
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
-
+@import './layout/mixin';
 @import './layout/utilities';
 @import './layout/base';
 @import './layout/layout';
 @import './pages/index';
+
+*{
+    // outline:1px solid black;
+}

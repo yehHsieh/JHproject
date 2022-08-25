@@ -23,3 +23,15 @@
         }
     }
 };
+
+// setting font-weight
+.fw-medium{
+    font-weight: 500;
+}
+
+//setting position
+.end-lg-100{
+    @include laptop{
+        left: 0 !important;
+    }
+}
