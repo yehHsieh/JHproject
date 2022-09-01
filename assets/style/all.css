@@ -248,7 +248,7 @@ pre code {
 
 code {
   font-size: 0.875em;
-  color: #d63384;
+  color: #fd7e14;
   word-wrap: break-word;
 }
 
@@ -15966,8 +15966,65 @@ li {
   margin: 0 !important;
 }
 
+ul {
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+
+.navList {
+  position: fixed;
+}
+
+.navList-hover:hover {
+  color: #D3B9A0;
+  background-color: #625448;
+}
+
+.card {
+  border-radius: 4px;
+}
+
+.card-body {
+  background: #fff;
+}
+
+.card-body span {
+  color: orangered;
+}
+
+.page {
+  border: 1px solid #625448;
+  border-radius: 100%;
+  padding: 0 10px;
+}
+
+.page:hover {
+  color: white;
+  background: #625448;
+}
+
+.list-group-item-title {
+  color: #3E3C3C;
+  background: #D3B9A0;
+  border-bottom: 1px dashed #000;
+}
+
+.list-group-item-hover:hover {
+  color: #fff;
+  background: #625448;
+}
+
+.swiper-pagination-color span {
+  background: #625448;
+}
+
 .bg-image {
   background: url(../images/bg.png);
+}
+
+.bg-quote-mobile {
+  background: url(../images/quote_mobile.png) no-repeat center center;
+  background-size: cover;
 }
 
 .media i {
