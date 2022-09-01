@@ -1,6 +1,10 @@
 .bg-image{
     background: url(../images/bg.png);
 }
+.bg-quote-mobile{
+    background: url(../images/quote_mobile.png) no-repeat center center;
+    background-size:cover;
+}
 
 .media{
     i{
@@ -103,17 +107,17 @@
         z-index:6 ;
         transition: 0.25s ease-in-out; 
         &:nth-child(1){
-            top: 28%;
+            top: 20px;
             right: 12px;
             z-index:6 ;
         }
         &:nth-child(2){
-            top: 39.4%;
+            top: 29px;
             right: 12px;
             z-index:6 ;
         }
         &:nth-child(3){
-            top: 53.5%;
+            top: 38px;
             right: 12px;
             z-index:6 ;
         }

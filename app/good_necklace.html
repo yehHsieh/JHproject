@@ -1,0 +1,188 @@
+---
+title: JH goods-necklace
+layout: ./app/layout.ejs
+engine: ejs
+current: goods-necklace
+---
+<!-- Breadcrumb -->
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="d-none d-lg-block">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html">首頁</a></li>
+      <li class="breadcrumb-item"><a href="goods.html" class="d-inline">所有商品</a></li>
+      <li class="breadcrumb-item active" aria-current="page">項鍊</li>
+    </ol>
+  </nav>
+
+<!--iphone swiper -->
+<div class="swiper iphoneSwiper d-lg-none">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="assets/images/student01.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="assets/images/pic_mobile.png" alt=""></div>
+        <div class="swiper-slide"><img src="assets/images/quote_mobile.png" alt=""></div>
+    </div>
+    <div class="swiper-button-next text-primary"></div>
+    <div class="swiper-button-prev text-primary"></div>
+    <div class="swiper-pagination swiper-pagination-color"></div>
+</div>
+
+<!-- laptop swiper -->
+<div class="d-none d-lg-block">
+    <div style="--swiper-navigation-color: $primary; --swiper-pagination-color: $primary" class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <div thumbsSlider="" class="swiper laptopSwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="bg-image">
+    <div class="container">
+        <!-- 商品介紹 -->
+        <div class="row">
+            <div class="col">
+                <h2>天堂鳥項鍊</h2>
+                <h3>NT$2,400</h3>
+                <p>-琺瑯 Enamel。
+                    又稱搪瓷、景泰藍，指將玻璃或陶瓷質粉末熔結在基質（如金屬、玻璃或陶瓷）表面形成的外殼，多為彩色具有藝術美感的花樣，用於保護和裝飾。
+                    <br>
+                    <br>
+                    -畫琺瑯，又稱「洋瓷」。
+                    是用琺瑯釉料直接在金屬胎上作畫，經燒制而成，富有繪畫趣味，因此也有人稱之為”琺瑯畫”。
+                    <br>
+                    <br>
+                    -可因各人喜好製作出您喜愛的圖樣。
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--我們提供-->
+<div class="bg-quote-mobile">
+    <h3 class="text-center">我們可提供</h3>
+    <div class="container text-center">
+        <ul class="row">
+            <div class="col-md-4">
+                <li>
+                    <ul>
+                        <h4>鍊條長度選配</h4>
+                        <li>14英吋（約36cm）</li>
+                        <li>16英吋（約41cm）</li>
+                        <li>18英吋（約46cm）</li>
+                        <li>20英吋（約51cm）</li>
+                    </ul>
+                </li>
+            </div>
+            <div class="col-md-4">
+                <li>
+                    <ul>
+                        <h4>釦環種類選配</h4>
+                        <li>龍蝦釦</li>
+                        <li>彈簧釦</li>
+                    </ul>
+                </li>
+            </div>
+            <div class="col-md-4">
+                <li>
+                    <ul>
+                        <h4>鍊條材質選配</h4>
+                        <li>合金電鍍</li>
+                        <li>銀</li>
+                        <li>銅</li>
+                    </ul>
+                </li>
+            </div>
+        </ul>
+    </div>
+</div>
+
+<!--溫馨提醒iphone、ipad  -->
+<div class="bg-image d-lg-none">
+    <h3>溫馨提醒</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="assets/images/ring.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">STEP 1</h5>
+                        <p class="card-text">選定以上相關選配規格，如沒想法將由設計團隊靈感搭配</p>
+                        <a href="#" class="btn btn-primary">量測指南</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="assets/images/ring.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">STEP 2</h5>
+                        <p class="card-text">與設計團隊聯繫做最後的確認，設計團隊將會詢問你欲運送方式</p>
+                        <a href="#" class="btn btn-primary">運送方式</a>
+                        <a href="#" class="btn btn-secondary">聯絡設計團隊</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- 溫馨提醒laptop -->
+<div class="bg-image d-none d-lg-block">
+    <div class="container">
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="assets/images/student01.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">STEP 1</h5>
+                        <p class="card-text">選定以上相關選配規格，如沒想法將由設計團隊靈感搭配</p>
+                        <a href="#" class="btn btn-primary">量測指南</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <div class="card-body">
+                        <h5 class="card-title">STEP 2</h5>
+                        <p class="card-text">與設計團隊聯繫做最後的確認，設計團隊將會詢問你欲運送方式</p>
+                        <a href="#" class="btn btn-primary">運送方式</a>
+                        <a href="#" class="btn btn-secondary">聯絡設計團隊</a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <img src="assets/images/student01.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,52 @@
+//navside 
+.navList{
+    position: fixed;
+}
+.navList-hover{
+    &:hover{
+        color: $secondary;
+        background-color: $primary;
+    }
+}
+
+// card
+.card{
+    border-radius: 4px;
+}
+.card-body{
+    background: #fff;
+    span{
+        color: orangered;
+    }
+}
+
+// pagination
+.page{
+    border: 1px solid $primary;
+    border-radius: 100%;
+    padding:0 10px;
+    &:hover{
+        color:white;
+        background: $primary;
+    }
+}
+
+//List
+.list-group-item-title{
+    color: $base;
+    background: $secondary;
+    border-bottom: 1px dashed #000;
+}
+.list-group-item-hover{
+    &:hover{
+        color: #fff;
+        background: $primary;
+    }
+}
+
+// swiper
+.swiper-pagination-color{
+    span{
+        background: $primary;
+    }
+}
