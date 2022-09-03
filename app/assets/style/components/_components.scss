@@ -19,6 +19,26 @@
         color: orangered;
     }
 }
+.card-bg{
+    background: url(../images/pic_mobile.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    @include ipad{
+        background: url(../images/pic.png) no-repeat center center cover;
+    }
+    &::after{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: $secondary;
+        opacity: 0.6;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
 
 // pagination
 .page{

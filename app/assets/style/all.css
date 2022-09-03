@@ -4755,6 +4755,7 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: column;
   min-width: 0;
+  height: 100%;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
@@ -14198,13 +14199,6 @@ a {
 
 li {
   list-style: none;
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
-ul {
-  margin-bottom: 0 !important;
-  padding-left: 0 !important;
 }
 
 .navList {
@@ -14225,6 +14219,29 @@ ul {
 }
 .card-body span {
   color: orangered;
+}
+
+.card-bg {
+  background: url(../images/pic_mobile.png) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+@media (min-width: 768px) {
+  .card-bg {
+    background: url(../images/pic.png) no-repeat center center cover;
+  }
+}
+.card-bg::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #D3B9A0;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .page {
