@@ -53,5 +53,12 @@ var swiper2 = new Swiper(".mySwiper2", {
   thumbs: {
     swiper: swiper
   }
+}); // iphone artCraftSwiper
+
+var swiper = new Swiper(".artCraftSwiper", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  }
 });
 //# sourceMappingURL=all.js.map
