@@ -5,7 +5,7 @@ engine: ejs
 current: customize_step
 ---
 <!-- Breadcrumb -->
-<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="d-none d-lg-block">
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="d-none d-lg-block ps-3">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="index.html">首頁</a></li>
         <li class="breadcrumb-item"><a href="customize.html" class="d-inline">客製化商品</a></li>
@@ -14,12 +14,12 @@ current: customize_step
 </nav>
 
 <!-- step1 -->
-<div class="container">
-    <h3>STEP 1 選擇樣式</h3>
+<div class="container py-5 py-lg-7">
+    <h3 class="fw-bold">STEP 1 選擇樣式</h3>
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
             <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="assets/images/circle.jpg" class="card-img-top image-contain" alt="round">
                 <div class="card-body">
                     <h4 class="card-title">A 圓框</h4>
                 </div>
@@ -27,7 +27,7 @@ current: customize_step
         </div>
         <div class="col">
             <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="assets/images/方框.jpg" class="card-img-top" alt="square">
                 <div class="card-body">
                     <h4 class="card-title">B 方框</h4>
                 </div>
@@ -35,7 +35,7 @@ current: customize_step
         </div>
         <div class="col">
             <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="assets/images/橢圓.jpg" class="card-img-top image-contain" alt="roundedCircle">
                 <div class="card-body">
                     <h4 class="card-title">C 橢圓框</h4>
                 </div>
@@ -44,20 +44,20 @@ current: customize_step
     </div>
 </div>
 
-<!-- step2 -->
-<div class="container">
-    <h3>STEP 2 選擇相關選配</h3>
-</div>
 
+<!-- step2 -->
 <!--我們提供-->
-<div class="bg-quote-mobile">
-    <h3 class="text-center">我們可提供</h3>
+<div class="bg-quote-mobile py-5 py-lg-7">
+    <div class="container">
+        <h3 class="fw-bold mb-4">STEP 2 選擇相關選配</h3>
+    </div>
+    <h3 class="text-center mb-4 mb-lg-6 fw-bold">我們可提供</h3>
     <div class="container text-center">
-        <ul class="row">
+        <ul class="row p-0 m-0">
             <div class="col-md-4">
-                <li>
-                    <ul>
-                        <h4>鍊條長度選配</h4>
+                <li class="no-space">
+                    <ul class="text-center p-0 m-0 mb-42p">
+                        <h4 class="text-center">鍊條長度選配</h4>
                         <li>14英吋（約36cm）</li>
                         <li>16英吋（約41cm）</li>
                         <li>18英吋（約46cm）</li>
@@ -67,7 +67,7 @@ current: customize_step
             </div>
             <div class="col-md-4">
                 <li>
-                    <ul>
+                    <ul class="no-space  mb-42p">
                         <h4>釦環種類選配</h4>
                         <li>龍蝦釦</li>
                         <li>彈簧釦</li>
@@ -76,7 +76,7 @@ current: customize_step
             </div>
             <div class="col-md-4">
                 <li>
-                    <ul>
+                    <ul class="no-space">
                         <h4>鍊條材質選配</h4>
                         <li>合金電鍍</li>
                         <li>銀</li>
@@ -89,8 +89,8 @@ current: customize_step
 </div>
 
 <!-- step3 -->
-<div class="container">
-    <h3>STEP 3 相片提供</h3>
+<div class="container py-5 py-lg-7">
+    <h3 class="fw-bold">STEP 3 相片提供</h3>
     <p>*請提供欲放置之照片，請提供jpg、png檔案格式至
     </p>
     <a href="mailto:dsgdw@gmail.com" class="btn btn-primary mb-5">我們的信箱</a>
@@ -102,12 +102,12 @@ current: customize_step
 
 <!-- step4 -->
 <div class="card-bg">
-    <div class="container">
-        <h3>STEP4 與設計團隊聯絡</h3>
+    <div class="container py-5 py-lg-7">
+        <h3 class="fw-bold">STEP4 與設計團隊聯絡</h3>
         <p>將Step1、Step2之選擇告訴設計團隊，並告知Step3將採取哪種方式並告知寄件人名稱告訴設計團隊，並告知Step3將採取哪種方式並告知寄件人名稱，最後再選擇運送方式。</p>
-        <div class="d-flex justify-content-lg-end ">
-            <a href="#" class="btn btn-primary">運送方式</a>
-            <a href="#" class="btn btn-secondary">聯絡設計團隊</a>
+        <div class="d-flex justify-content-center justify-content-lg-end ">
+            <a href="footerInfo.html" class="btn btn-primary me-5">運送方式</a>
+            <a href="footerInfo.html#footerInfo-3" class="btn btn-secondary">聯絡設計團隊</a>
         </div>
     </div>
 </div>

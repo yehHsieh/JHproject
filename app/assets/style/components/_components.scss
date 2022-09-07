@@ -12,6 +12,7 @@
 // card
 .card{
     border-radius: 4px;
+    height: unset;
 }
 .card-body{
     background: #fff;
@@ -40,9 +41,10 @@
     }
 }
 
+
 // pagination
 .page{
-    border: 1px solid $primary;
+    border: 3px solid $primary;
     border-radius: 100%;
     padding:0 10px;
     &:hover{
@@ -70,3 +72,5 @@
         background: $primary;
     }
 }
+
+

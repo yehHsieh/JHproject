@@ -59,3 +59,11 @@ var swiper2 = new Swiper(".mySwiper2", {
     swiper: swiper,
   },
 });
+
+// iphone artCraftSwiper
+var swiper = new Swiper(".artCraftSwiper", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});

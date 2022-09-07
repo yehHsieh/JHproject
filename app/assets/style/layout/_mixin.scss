@@ -13,3 +13,14 @@
         @content
     }
 }
+
+@mixin hideLogo{
+    width: 100px;
+    height: 50px;
+    background: url(../images/logo-nav.png) center center no-repeat;
+    background-size: contain;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+

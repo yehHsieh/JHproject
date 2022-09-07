@@ -275,6 +275,7 @@ $spacers: (
   "51p": $spacer * 3.19,  //51px
   "80p": $spacer * 5,   //80px
   "120p": $spacer * 7.5,   //120px
+  "160p": $spacer * 10,   //160px
   "205p": $spacer * 12.81  //205px
 ) !default;
 
@@ -288,7 +289,11 @@ $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) 
 // scss-docs-start position-map
 $position-values: (
   0: 0,
+  221p: 221px,
+  5: 5%,
+  35: 35%,
   50: 50%,
+  90: 90%,
   100: 100%
 ) !default;
 // scss-docs-end position-map
